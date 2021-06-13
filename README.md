@@ -15,7 +15,9 @@
 wget https://github.com/Hanteuni/image_analysis_big_data
 ```
 3. Put the folder named "dataset_dogs_vs_cats" and the "onze_fotos" in the docker directory
-4. Build the image using docker build
+- You can download the dataset_dogs_vs_cats from here
+[link](https://www.kaggle.com/c/dogs-vs-cats/data)
+5. Build the image using docker build
 ```
 docker build [PATH TO DOCKER DIRECTORY]
 ```
